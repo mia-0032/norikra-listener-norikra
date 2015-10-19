@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+  - jruby-19mode
+  - jruby-head
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk7
+  - openjdk6
+matrix:
+  allow_failures:
+    - rvm: jruby-head
+sudo: false
+cache: bundler
