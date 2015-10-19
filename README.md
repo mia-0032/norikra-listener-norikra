@@ -1,5 +1,7 @@
 # norikra-listener-norikra
 
+[![Build Status](https://travis-ci.org/mia-0032/norikra-listener-norikra.svg?branch=master)](https://travis-ci.org/mia-0032/norikra-listener-norikra)
+
 Norikra Listener plugin to send events to another Norikra.
 
 ## Installation
