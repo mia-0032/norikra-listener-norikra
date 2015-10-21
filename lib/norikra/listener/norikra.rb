@@ -11,7 +11,6 @@ module Norikra
       def self.parse_argument(argument, query_name)
         addr, target = argument.split(',', 2)
         target = query_name unless target
-        @target = target
 
         host, port_str = addr.split(':', 2)
         raise Norikra::ArgumentError, "host is not specified" if host.empty?
